@@ -1,15 +1,15 @@
 #main {
     font-family: 'Open Sans', monospace;
     font-size: 14px;
-    color: black;
-    background-color: white;
+    color: #850A29;
+    background-color: #E6E6E6;
 
 }
 #title {
 
 }
 #img-div {
-
+    
 }
 #image {
     width: 1200px;
@@ -18,7 +18,7 @@
 
 }
 #tribute-info {
-    color:black;
+    color: #850A29;
 }
 #tribute-link {
 
