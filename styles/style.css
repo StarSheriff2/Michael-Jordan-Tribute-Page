@@ -25,7 +25,7 @@ body {
     align-items: center;
 }
 #image {
-    max-width: 100%;
+    width: 800px;
     margin: 0;
 }
 #img-caption {
@@ -52,4 +52,12 @@ a:hover {
 }
 #tribute-info:hover {
   background: #f2f0ee;
+}
+@media (max-width: 1000px) {
+    #image {
+        width: 100%;
+    }
+    #tribute-info {
+        padding: 7% 10%;
+    }
 }
