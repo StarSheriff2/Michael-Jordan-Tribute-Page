@@ -1,11 +1,12 @@
 #main {
     font-family: 'Open Sans', monospace;
-    font-size: 14px;
+    font-size: 24px;
     color: #850A29;
     background-color: #E6E6E6;
     text-align: center;
+  width: 100%;
     margin: auto;
-
+  padding: auto;
 }
 body {
   background: #E6E6E6;
@@ -16,6 +17,7 @@ body {
     text-transform: capitalize;
     font-weight: 600;
     padding: 100px;
+   
 }
 #img-div {
     padding: 30px 130px;
@@ -29,24 +31,26 @@ body {
   margin: auto;
 }
 #img-caption {
-
+    width: 70vw;
+     margin: 20px auto;
+    font-size: 18px;
 }
 #tribute-info {
     color: #850A29;
     text-align: center;
     padding: 7% 20%;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 40px;
     margin: auto;
-    margin: 90px;
+    margin: 30px 90px;
 }
 #tribute-link {
-
+    width: 70vw;
+    margin: 100px auto;
 }
 a:hover {
   color: blue;
 }
 #tribute-info:hover {
   background: #f2f0ee;
-  
 }
