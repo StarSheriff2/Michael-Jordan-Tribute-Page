@@ -22,16 +22,19 @@ body {
 #img-div {
     padding: 30px 130px;
     margin: auto;
+    align-items: center;
 }
 #image {
     width: 1200px;
+    max-width: 100%;
     padding: 10px;
     margin: 10px;
   display: block;
   margin: auto;
 }
 #img-caption {
-    width: 70vw;
+    text-align: center;
+    align-items: center;
      margin: 20px auto;
     font-size: 18px;
 }
