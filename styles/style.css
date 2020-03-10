@@ -3,23 +3,47 @@
     font-size: 14px;
     color: #850A29;
     background-color: #E6E6E6;
+    text-align: center;
+    margin: auto;
 
 }
 #title {
-
+    font-size: 110px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 100px;
 }
 #img-div {
-    
+    padding: 30px 130px;
+    margin: auto;
 }
 #image {
     width: 1200px;
+    padding: 10px;
+    margin: 10px;
+  display: block;
+  margin: auto;
 }
 #img-caption {
 
 }
 #tribute-info {
     color: #850A29;
+    text-align: center;
+    padding: 7% 20%;
+    font-size: 16px;
+    line-height: 30px;
+    margin: auto;
+    margin: 90px;
 }
 #tribute-link {
 
+}
+a:hover {
+  color: blue;
+}
+#tribute-info:hover {
+  background: #f2f0ee;
+  
 }
