@@ -16,12 +16,13 @@ body {
     text-align: center;
     text-transform: capitalize;
     font-weight: 600;
-    padding: 100px;
-    margin: auto;
+    padding: 140px;
+    margin: -5% auto;
 }
 #img-div {
-    padding: 30px 130px;
-    margin: auto;
+  background: white;  
+  padding: 30px 130px;
+    margin: -1% auto;
     align-items: center;
 }
 #image {
@@ -31,7 +32,7 @@ body {
 #img-caption {
     text-align: center;
     align-items: center;
-     margin: 20px auto;
+    margin: 20px auto;
     font-size: 18px;
 }
 #tribute-info {
