@@ -4,10 +4,11 @@
     color: #850A29;
     background-color: #E6E6E6;
     text-align: center;
-  width: 100%;
+  width: 95%;
     margin: auto;
   padding: auto;
 }
+
 body {
   background: #E6E6E6;
 }
@@ -23,9 +24,10 @@ body {
   display: flex;  
   flex-direction: column;
   padding: 70px 1%;
-    margin: -1% auto;
+    margin: 0;
     align-items: center;
 }
+
 #image {
     width: 800px;
     margin: 0;
@@ -40,16 +42,18 @@ body {
 
 #tribute-info {
     color: #850A29;
+    background: #E6E6E6;
     text-align: center;
-    padding: 7% 10%;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 40px;
-    margin: auto;
+    margin: 0;
+    padding: 15% 20%;
+    
 }
 
-#tribute-link {
-    width: 70vw;
-    margin: 100px auto;
+#tribute-link-text {
+  width: 70vw;
+  margin: 100px auto;
 }
 a:hover {
   color: blue;
