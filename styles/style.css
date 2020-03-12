@@ -12,22 +12,24 @@ body {
   background: #E6E6E6;
 }
 #title {
-    font-size: 110px;
-    text-align: center;
+    font-size: 90px;
     text-transform: capitalize;
     font-weight: 600;
-    padding: 140px;
-    margin: -5% auto;
+    padding: 2% 0 3% 0;
+    margin: 0 auto;
 }
 #img-div {
-  background: white;  
-  padding: 30px 130px;
+  background: white;
+  display: flex;  
+  flex-direction: column;
+  padding: 70px 1%;
     margin: -1% auto;
     align-items: center;
 }
 #image {
     width: 800px;
     margin: 0;
+    display: block;
 }
 #img-caption {
     text-align: center;
@@ -35,15 +37,16 @@ body {
     margin: 20px auto;
     font-size: 18px;
 }
+
 #tribute-info {
     color: #850A29;
     text-align: center;
-    padding: 7% 30%;
+    padding: 7% 10%;
     font-size: 24px;
     line-height: 40px;
     margin: auto;
-   
 }
+
 #tribute-link {
     width: 70vw;
     margin: 100px auto;
@@ -54,11 +57,50 @@ a:hover {
 #tribute-info:hover {
   background: #f2f0ee;
 }
-@media (max-width: 1000px) {
-    #image {
-        width: 100%;
-    }
-    #tribute-info {
-        padding: 7% 10%;
-    }
+@media (max-width: 850px) {
+  
+  #image {
+      width: 100%; 
+  }
+
+  #title {
+      padding: 7% 10%;
+  }
+}
+#career-stats {
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+}
+
+#career-stats-title {
+  text-align: center;
+}
+
+#stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4%;
+}
+
+#total-games {
+  display: flex;
+  flex-direction: column;
+}
+
+#Points-per-game {
+  display: flex;
+  flex-direction: column;
+}
+
+#total-rebounds {
+  display: flex;
+  flex-direction: column;
+}
+
+#Assists-per-game {
+  display: flex;
+  flex-direction: column;
 }
