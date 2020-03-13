@@ -1,105 +1,134 @@
 #main {
-    font-family: 'Open Sans', monospace;
-    font-size: 24px;
-    color: #850A29;
-    background-color: #E6E6E6;
-    text-align: center;
-  width: 95%;
-    margin: auto;
-  padding: auto;
+  font-family: 'Open Sans', monospace;
+  font-size: 24px;
+  color: #850A29;
+  background-color: #E6E6E6;
+  text-align: center;
+width: 95%;
+  margin: auto;
+padding: auto;
 }
 
 body {
-  background: #E6E6E6;
+background: #E6E6E6;
 }
 #title {
-    font-size: 80px;
-    text-transform: capitalize;
-    font-weight: 600;
-    padding: 2% 0 3% 0;
-    margin: 0 auto;
+  font-size: 80px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 2% 0 3% 0;
+  margin: 0 auto;
 }
 #img-div {
-  background: white;
-  display: flex;  
-  flex-direction: column;
-  padding: 70px 1%;
-    margin: 0;
-    align-items: center;
+background: white;
+display: flex;  
+flex-direction: column;
+padding: 70px 1%;
+  margin: 0;
+  align-items: center;
 }
 
 #image {
-    width: 800px;
-    max-width:100%;
-    height: auto;
-    margin: 0;
+  width: 800px;
+  max-width:100%;
+  height: auto;
+  margin: 0;
 }
 #img-caption {
-    text-align: center;
-    align-items: center;
-    margin: 20px auto;
-    font-size: 18px;
+  text-align: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 18px;
 }
 
 #tribute-info {
-    color: #850A29;
-    background: #E6E6E6;
-    text-align: center;
-    font-size: 22px;
-    line-height: 40px;
-    margin: 0;
-    padding: 15% 20%;
+  color: #850A29;
+  background: #E6E6E6;
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+  margin: 0;
+  padding: 15% 20%;
 }
 
 #tribute-link-text {
-  width: 70vw;
-  margin: 100px auto;
+width: 70vw;
+margin: 25% auto 15% auto;
 }
 a:hover {
-  color: blue;
+color: blue;
 }
 #tribute-info:hover {
-  background: #f2f0ee;
+background: #f2f0ee;
 }
 @media (max-width: 900px) {
-  #title {
-      padding: 2% 0;
-  }
+#title {
+    padding: 2% 0;
+}
 }
 #career-stats {
-  display: flex;
-  flex-direction: column;
-  padding: 4%;
+display: flex;
+flex-direction: column;
+padding: 4%;
 }
 
 #career-stats-title {
-  text-align: center;
+text-align: center;
 }
 
 #stats {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 4%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding: 4%;
 }
 
 #total-games {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 #Points-per-game {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 #total-rebounds {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 #Assists-per-game {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
+}
+
+/* .Flex-Hall-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 15% auto;
+width: 500px
+} */
+
+.Two-Column-Container {
+display: grid;
+background: green;
+width: 50%;
+margin: 15% auto;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 3em repeat(6, 2em);
+grid-gap: 0.75em;
+align-items: center;
+/* justify-items: stretch; */
+}
+
+.Hall-of-Fame-Title {
+    grid-area: 1/1/2/3;
+    background: red;   
+    
+}
+.Hall-of-Fame-items {
+background: white;
 }
