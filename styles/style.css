@@ -16,20 +16,20 @@ background: #E6E6E6;
   font-size: 80px;
   text-transform: capitalize;
   font-weight: 600;
-  padding: 2% 0 3% 0;
+  padding: 2% 0;
   margin: 0 auto;
 }
 #img-div {
 background: white;
 display: flex;  
 flex-direction: column;
-padding: 70px 1%;
+padding: 20px 1% 5px 1%;
   margin: 0;
   align-items: center;
 }
 
 #image {
-  width: 800px;
+  width: 700px;
   max-width:100%;
   height: auto;
   margin: 0;
@@ -61,11 +61,7 @@ color: blue;
 #tribute-info:hover {
 background: #f2f0ee;
 }
-@media (max-width: 900px) {
-#title {
-    padding: 2% 0;
-}
-}
+
 #career-stats {
 display: flex;
 flex-direction: column;
@@ -106,10 +102,10 @@ flex-direction: column;
 
 .Two-Column-Container {
 display: grid;
-width: 50%;
+width: 500px;
 margin: 11% auto;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 30vh repeat(6, 20vh);
+grid-template-rows: 15vh repeat(6, 10vh);
 grid-gap: 0.75em;
 }
 
@@ -122,6 +118,7 @@ grid-gap: 0.75em;
     justify-content: center;
     
 }
+
 .Hall-of-Fame-items {
 background: white;
 display: flex;
@@ -131,3 +128,20 @@ border-color: #850A29;
 border-width: 2px;
 border-style: solid;
 }
+
+@media (max-width: 700px) {
+  .Two-Column-Container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .Hall-of-Fame-Title {
+    height: 15vh;
+}
+
+  .Hall-of-Fame-items {
+    height: 10vh;
+    }
+
+  }
