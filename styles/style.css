@@ -55,6 +55,7 @@ padding: 20px 1% 5px 1%;
 width: 70vw;
 margin: 25% auto 15% auto;
 }
+
 a:hover {
 color: blue;
 }
@@ -62,10 +63,18 @@ color: blue;
 background: #f2f0ee;
 }
 
+.Hall-of-Fame-items:hover {
+background: #f2f0ee;
+}
+
 #career-stats {
 display: flex;
 flex-direction: column;
 padding: 4%;
+}
+
+#career-stats:hover {
+background: #f2f0ee;
 }
 
 #career-stats-title {
@@ -103,7 +112,7 @@ flex-direction: column;
 
 .stat-width {
 flex-basis: 20%;
-margin: 5% 2.5%;
+margin: 5% 20px;
 }
 
 .Two-Column-Container {
@@ -139,6 +148,8 @@ border-style: solid;
     display: flex;
     flex-direction: column;
     width: 250px;
+    margin: 15% auto;
+    padding: 12% 0;
   }
 
   .Hall-of-Fame-Title {
@@ -157,4 +168,8 @@ border-style: solid;
   .stat-width {
       margin: 5% auto;
         }
+
+  #career-stats {
+      padding: 12% 0;
+  }
   }
